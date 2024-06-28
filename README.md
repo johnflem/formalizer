@@ -22,7 +22,7 @@ Once the server is running,
 - you will be asked to log in (sample store.db has a root@root.com/password entry)
 - once logged in, you will see a list of your tables in the left menu bar
 - choose the table, you will see a form for that table.
-- add fields by clicking on the new button
+- add rows by clicking on the new button
 - choose the edit/delete buttons to change an existing record
 - if a foreign key was identified and the above rules followed, there will be a dropdown for valid entry
 
