@@ -7,11 +7,11 @@ It runs as a uvicorn server, to be hosted on a nginx platform. Ideally this woul
 Database requirements:
 - All tables must have a primary autoincrement id named id
 - Any table that is used as a parent table for a foreign key must have a column called name
--There must be a table named admins that will consist of a name, email, and password columns.
+- There must be a table named admins that will consist of a name, email, and password columns.
 
 To run, 
 - unzip the file into a candidate folder.
--create a sqlite database using the above criteria
+- create a sqlite database using the above criteria
 - when complete, run “bash ./setup.sh {databasename}”
 -   a virtual environment will be created
 -  a pip install -r requirements.txt will populate external libraries
